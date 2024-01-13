@@ -26,6 +26,15 @@ public class Moviles {
         this.Precio = Precio;
     }
     
+    public Moviles(Moviles copia){
+         this.marca = copia.getMarca();
+        this.modelo = copia.getModelo();
+        this.tamPantalla = copia.getTamPantalla();
+        this.tamBateria = copia.getTamBateria();
+        this.Precio = copia.getPrecio();
+        
+    }
+    
     public Moviles(){
         
     }
