@@ -74,5 +74,17 @@ public class Main {
         System.out.println(movil);
         System.out.println("posicion del movil es : " + tienda.buscarElementoBinario(movil));
         
+        
+        System.out.println("--eliminar elementos---");
+         Catalogo tiendaEliminar = new Catalogo();
+         tiendaEliminar.add(tienda.getCatalogo().get(3));
+         tiendaEliminar.add(tienda.getCatalogo().get(2));
+         System.out.println("--lista a eliminar---");
+         tiendaEliminar.imprimirCatalogo();
+                
+        tienda.eliminarElementos(tiendaEliminar);
+        System.out.println("--tienda sin los elementos---");
+        tienda.imprimirCatalogo();
+        
     }
 }
