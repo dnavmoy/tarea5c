@@ -19,10 +19,10 @@ public class Main {
         Catalogo tienda = new Catalogo();
         
         //añadir nuevos elementos mediante el constructor de moviles
-        tienda.add(new Moviles("Samsun", "s1", 4.1, 1000, 188.1));
-        tienda.add(new Moviles("nokia", "n2", 8.8, 2000, 88));
+        tienda.add(new Moviles("Sansun", "s1", 4.1, 1000, 188.1));
+        tienda.add(new Moviles("nikia", "n2", 8.8, 2000, 88));
         tienda.add(new Moviles("huyawi", "h30", 7.1, 2005, 102));
-        tienda.add(new Moviles("apple", "ap1", 8.1, 3000, 288));
+        tienda.add(new Moviles("pear", "ap1", 8.1, 3000, 288));
         
         //mostrar el catalogo 
         System.out.println("---Mostrar catalogo--");
